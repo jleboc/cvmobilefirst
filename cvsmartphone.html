@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mon sticky CV</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-color: black;
+                color: white;
+                margin: 0;
+                padding: 0;
+            }
+            header{
+                text-align: center;
+                box-sizing: border-box;
+            }
+            nav{
+                width:100%;
+                height: 50px;
+                display: flex;
+                background: rgba(0,0,0,.6);
+                position: sticky;
+                top: 0;
+            }
+            nav a{
+                display: block;
+                line-height: 50px;
+                padding: 0 20px;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: bold;            
+            }
+            section{
+                width: 100%;
+                height: 100vh;
+            }
+            section.sec1{
+                background: url(img1.jpg);
+                background-size: cover;
+            }
+            section.sec3{
+                background: url(img2.jpg);
+                background-size: cover;
+            }
+            section.sec5{
+                background: url(img3.jpg);
+                background-size: cover;
+            }
+            section.sec2, section.sec4, section.sec6{
+                padding: 5px;
+                box-sizing: border-box;
+                height: auto;
+            }
+            a{
+                color: greenyellow;
+               
+            }
+        </style> 
+    </head>
+
+    <body>
+        <header>
+          
+            <img src="image/myAvatar.png" alt=""/>
+            <h1> 
+                Jérôme Leboc
+            </h1>
+            <p>
+                Enthousiaste, Curieux, Réfléchi
+            </p>
+            <h2>
+                Formateur - Animateur
+            </h2>
+            <ul>
+                <li>Leboc</li>
+                <li>Jérôme</li>
+                <li>né le 26 Août 1986 à Bruxelles</li>
+
+            </ul>
+
+        </header>
+        <nav>
+            <a href="#">J.L.</a>
+            <a href="#cv">CV</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <section class="sec1">
+
+
+        </section>
+        <section class="sec2" id="cv">
+            <h2> Expérience</h2>
+            <ul>
+                <li><strong>2019 - 2020</strong> Formateur -Animateur</li>
+                <li><strong>2011 - 2018</strong> Intermitant du spectacle</li>
+                <li><strong>2008 - 2010</strong> Magasinier</li>
+            </ul>            
+
+        </section>
+        <section class="sec3">
+
+        </section>
+        <section class="sec4">
+            <h2> Compétences </h2>
+            <ul>
+                <li>Microsoft office (excel, word, powerpoint)</li>
+                <li>Affinity, resolve, winmorph</li>
+                <li>windows 7,8,10</li>
+                <li>Hardware</li>
+            </ul>
+
+        </section>
+        <section class="sec5">
+
+        </section>
+        <section class="sec6" ID="contact">
+            <h2>Contacts</h2>
+            <ul><li><a href="tel:0487210613">0487/21.06.13</a> </li>
+                <li><a href="mailto:j.leboc4989@outlook.com?Subject=stickycvsujetdumail" title="envoyez moi un mail">j.leboc4989@outlook.com</a></li></ul>
+
+        </section>
+
+    </body>
+</html>
